@@ -1,0 +1,5 @@
+qwerty q qwe 1 ppp 10000 ааап 
+asdfgh a asd 2 ppp 20000 
+zxcvbn z zxc 3 aaa 30000 
+tyuiop t tyu 4 aaa 40000 
+rtyuio r rty 5 ddd 50000 
