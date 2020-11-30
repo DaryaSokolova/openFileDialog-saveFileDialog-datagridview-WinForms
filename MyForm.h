@@ -1,4 +1,4 @@
-#pragma once
+п»ї#pragma once
 #include <string>
 
 namespace Project26 {
@@ -13,7 +13,7 @@ namespace Project26 {
 	using namespace std;
 
 	/// <summary>
-	/// Сводка для MyForm
+	/// РЎРІРѕРґРєР° РґР»СЏ MyForm
 	/// </summary>
 	public ref class MyForm : public System::Windows::Forms::Form
 	{
@@ -22,13 +22,13 @@ namespace Project26 {
 		{
 			InitializeComponent();
 			//
-			//TODO: добавьте код конструктора
+			//TODO: РґРѕР±Р°РІСЊС‚Рµ РєРѕРґ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР°
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// Освободить все используемые ресурсы.
+		/// РћСЃРІРѕР±РѕРґРёС‚СЊ РІСЃРµ РёСЃРїРѕР»СЊР·СѓРµРјС‹Рµ СЂРµСЃСѓСЂСЃС‹.
 		/// </summary>
 		~MyForm()
 		{
@@ -59,14 +59,14 @@ namespace Project26 {
 
 	private:
 		/// <summary>
-		/// Обязательная переменная конструктора.
+		/// РћР±СЏР·Р°С‚РµР»СЊРЅР°СЏ РїРµСЂРµРјРµРЅРЅР°СЏ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР°.
 		/// </summary>
 		System::ComponentModel::Container ^components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Требуемый метод для поддержки конструктора — не изменяйте 
-		/// содержимое этого метода с помощью редактора кода.
+		/// РўСЂРµР±СѓРµРјС‹Р№ РјРµС‚РѕРґ РґР»СЏ РїРѕРґРґРµСЂР¶РєРё РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР° вЂ” РЅРµ РёР·РјРµРЅСЏР№С‚Рµ 
+		/// СЃРѕРґРµСЂР¶РёРјРѕРµ СЌС‚РѕРіРѕ РјРµС‚РѕРґР° СЃ РїРѕРјРѕС‰СЊСЋ СЂРµРґР°РєС‚РѕСЂР° РєРѕРґР°.
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -96,7 +96,7 @@ namespace Project26 {
 			this->btnOpen->Name = L"btnOpen";
 			this->btnOpen->Size = System::Drawing::Size(104, 40);
 			this->btnOpen->TabIndex = 1;
-			this->btnOpen->Text = L"Открыть";
+			this->btnOpen->Text = L"РћС‚РєСЂС‹С‚СЊ";
 			this->btnOpen->UseVisualStyleBackColor = true;
 			this->btnOpen->Click += gcnew System::EventHandler(this, &MyForm::btnOpen_Click);
 			// 
@@ -106,7 +106,7 @@ namespace Project26 {
 			this->btnSave->Name = L"btnSave";
 			this->btnSave->Size = System::Drawing::Size(104, 38);
 			this->btnSave->TabIndex = 2;
-			this->btnSave->Text = L"Сохранить";
+			this->btnSave->Text = L"РЎРѕС…СЂР°РЅРёС‚СЊ";
 			this->btnSave->UseVisualStyleBackColor = true;
 			this->btnSave->Click += gcnew System::EventHandler(this, &MyForm::btnSave_Click);
 			// 
@@ -114,14 +114,14 @@ namespace Project26 {
 			// 
 			this->openFileDialog->DefaultExt = L"txt";
 			this->openFileDialog->FileName = L"openFileDialog1";
-			this->openFileDialog->Filter = L"Текстовые файлы (*.txt)|*.txt|Все файлы (*.*)|*.*";
-			this->openFileDialog->Title = L"Открыть файл";
+			this->openFileDialog->Filter = L"РўРµРєСЃС‚РѕРІС‹Рµ С„Р°Р№Р»С‹ (*.txt)|*.txt|Р’СЃРµ С„Р°Р№Р»С‹ (*.*)|*.*";
+			this->openFileDialog->Title = L"РћС‚РєСЂС‹С‚СЊ С„Р°Р№Р»";
 			// 
 			// saveFileDialog
 			// 
 			this->saveFileDialog->DefaultExt = L"txt";
-			this->saveFileDialog->Filter = L"Текстовые файлы (*.txt)|*.txt|Все файлы (*.*)|*.*";
-			this->saveFileDialog->Title = L"Сохранить файл";
+			this->saveFileDialog->Filter = L"РўРµРєСЃС‚РѕРІС‹Рµ С„Р°Р№Р»С‹ (*.txt)|*.txt|Р’СЃРµ С„Р°Р№Р»С‹ (*.*)|*.*";
+			this->saveFileDialog->Title = L"РЎРѕС…СЂР°РЅРёС‚СЊ С„Р°Р№Р»";
 			// 
 			// grdFirst
 			// 
@@ -138,7 +138,7 @@ namespace Project26 {
 			this->btnAdd->Name = L"btnAdd";
 			this->btnAdd->Size = System::Drawing::Size(104, 42);
 			this->btnAdd->TabIndex = 6;
-			this->btnAdd->Text = L"Добавить строку";
+			this->btnAdd->Text = L"Р”РѕР±Р°РІРёС‚СЊ СЃС‚СЂРѕРєСѓ";
 			this->btnAdd->UseVisualStyleBackColor = true;
 			this->btnAdd->Click += gcnew System::EventHandler(this, &MyForm::btnAdd_Click);
 			// 
@@ -148,7 +148,7 @@ namespace Project26 {
 			this->btnRemove->Name = L"btnRemove";
 			this->btnRemove->Size = System::Drawing::Size(104, 35);
 			this->btnRemove->TabIndex = 7;
-			this->btnRemove->Text = L"Удалить строку";
+			this->btnRemove->Text = L"РЈРґР°Р»РёС‚СЊ СЃС‚СЂРѕРєСѓ";
 			this->btnRemove->UseVisualStyleBackColor = true;
 			this->btnRemove->Click += gcnew System::EventHandler(this, &MyForm::btnRemove_Click);
 			// 
@@ -158,7 +158,7 @@ namespace Project26 {
 			this->btnNewGrid->Name = L"btnNewGrid";
 			this->btnNewGrid->Size = System::Drawing::Size(104, 63);
 			this->btnNewGrid->TabIndex = 8;
-			this->btnNewGrid->Text = L"Создать таблицы";
+			this->btnNewGrid->Text = L"РЎРѕР·РґР°С‚СЊ С‚Р°Р±Р»РёС†С‹";
 			this->btnNewGrid->UseVisualStyleBackColor = true;
 			this->btnNewGrid->Click += gcnew System::EventHandler(this, &MyForm::btnNewGrid_Click);
 			// 
@@ -177,7 +177,7 @@ namespace Project26 {
 			this->btnFind->Name = L"btnFind";
 			this->btnFind->Size = System::Drawing::Size(75, 23);
 			this->btnFind->TabIndex = 10;
-			this->btnFind->Text = L"Найти";
+			this->btnFind->Text = L"РќР°Р№С‚Рё";
 			this->btnFind->UseVisualStyleBackColor = true;
 			this->btnFind->Click += gcnew System::EventHandler(this, &MyForm::btnFind_Click);
 			// 
@@ -194,7 +194,7 @@ namespace Project26 {
 			this->btnSaveSecond->Name = L"btnSaveSecond";
 			this->btnSaveSecond->Size = System::Drawing::Size(104, 35);
 			this->btnSaveSecond->TabIndex = 12;
-			this->btnSaveSecond->Text = L"Сохранить нижнюю таблицу";
+			this->btnSaveSecond->Text = L"РЎРѕС…СЂР°РЅРёС‚СЊ РЅРёР¶РЅСЋСЋ С‚Р°Р±Р»РёС†Сѓ";
 			this->btnSaveSecond->UseVisualStyleBackColor = true;
 			this->btnSaveSecond->Click += gcnew System::EventHandler(this, &MyForm::btnSaveSecond_Click);
 			// 
@@ -205,7 +205,7 @@ namespace Project26 {
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(167, 13);
 			this->label1->TabIndex = 13;
-			this->label1->Text = L"Введите должность для поиска";
+			this->label1->Text = L"Р’РІРµРґРёС‚Рµ РґРѕР»Р¶РЅРѕСЃС‚СЊ РґР»СЏ РїРѕРёСЃРєР°";
 			// 
 			// label2
 			// 
@@ -214,7 +214,7 @@ namespace Project26 {
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(245, 26);
 			this->label2->TabIndex = 14;
-			this->label2->Text = L"Лучше не использовать русский язык в файле\r\nВозможны проблемы с кодировкой\r\n";
+			this->label2->Text = L"Р›СѓС‡С€Рµ РЅРµ РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ СЂСѓСЃСЃРєРёР№ СЏР·С‹Рє РІ С„Р°Р№Р»Рµ\r\nР’РѕР·РјРѕР¶РЅС‹ РїСЂРѕР±Р»РµРјС‹ СЃ РєРѕРґРёСЂРѕРІРєРѕР№\r\n";
 			// 
 			// label3
 			// 
@@ -244,7 +244,7 @@ namespace Project26 {
 			this->Controls->Add(this->btnSave);
 			this->Controls->Add(this->btnOpen);
 			this->Name = L"MyForm";
-			this->Text = L"Работа с файлами";
+			this->Text = L"Р Р°Р±РѕС‚Р° СЃ С„Р°Р№Р»Р°РјРё";
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->grdFirst))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->grdSecond))->EndInit();
 			this->ResumeLayout(false);
@@ -252,20 +252,20 @@ namespace Project26 {
 
 		}
 #pragma endregion
-		//открыть файл
+		//РѕС‚РєСЂС‹С‚СЊ С„Р°Р№Р»
 	private: System::Void btnOpen_Click(System::Object^ sender, System::EventArgs^ e) 
 	{	
-		//очищаем таблицы
+		//РѕС‡РёС‰Р°РµРј С‚Р°Р±Р»РёС†С‹
 		clearAllFirst();
 		clearAllSecond();
-		//если верхней нет
+		//РµСЃР»Рё РІРµСЂС…РЅРµР№ РЅРµС‚
 		if (grdFirst->RowCount == 0)
 		{
-			MessageBox::Show("Создайте таблицу!");
+			MessageBox::Show("РЎРѕР·РґР°Р№С‚Рµ С‚Р°Р±Р»РёС†Сѓ!");
 		}
-		else //если есть
+		else //РµСЃР»Рё РµСЃС‚СЊ
 		{
-			//из тхт в таблицу
+			//РёР· С‚С…С‚ РІ С‚Р°Р±Р»РёС†Сѓ
 			System::IO::Stream^ myStream;
 			if (this->openFileDialog->ShowDialog() == System::Windows::Forms::DialogResult::OK)
 			{
@@ -274,26 +274,26 @@ namespace Project26 {
 					System::IO::StreamReader^ sw =
 						gcnew System::IO::StreamReader(myStream,
 							System::Text::Encoding::GetEncoding(1251));
-					int j = 0; //счетчик
+					int j = 0; //СЃС‡РµС‚С‡РёРє
 
 					try
 					{
-						while (sw->Peek() > -1) //пока файл не закончился
+						while (sw->Peek() > -1) //РїРѕРєР° С„Р°Р№Р» РЅРµ Р·Р°РєРѕРЅС‡РёР»СЃСЏ
 						{
 							System::String^ strl = "";
-							strl = sw->ReadLine(); //считываем построчно
+							strl = sw->ReadLine(); //СЃС‡РёС‚С‹РІР°РµРј РїРѕСЃС‚СЂРѕС‡РЅРѕ
 
-							for (int i = 0; i < grdFirst->ColumnCount; i++) //стоит только чтение, 
-								//а при открытии файла доп строка не добавляется
+							for (int i = 0; i < grdFirst->ColumnCount; i++) //СЃС‚РѕРёС‚ С‚РѕР»СЊРєРѕ С‡С‚РµРЅРёРµ, 
+								//Р° РїСЂРё РѕС‚РєСЂС‹С‚РёРё С„Р°Р№Р»Р° РґРѕРї СЃС‚СЂРѕРєР° РЅРµ РґРѕР±Р°РІР»СЏРµС‚СЃСЏ
 							{
 								int pos = 0;
-								int x = strl->IndexOf(' '); //ориентируемся по _, 
-								//поэтому просим пользователя пользоваться ставить их в конце строк
+								int x = strl->IndexOf(' '); //РѕСЂРёРµРЅС‚РёСЂСѓРµРјСЃСЏ РїРѕ _, 
+								//РїРѕСЌС‚РѕРјСѓ РїСЂРѕСЃРёРј РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ РїРѕР»СЊР·РѕРІР°С‚СЊСЃСЏ СЃС‚Р°РІРёС‚СЊ РёС… РІ РєРѕРЅС†Рµ СЃС‚СЂРѕРє
 
 								System::String^ s = strl->Substring(pos, x - pos);
-								grdFirst->Rows[j]->Cells[i]->Value = s; //заносим в табличку
+								grdFirst->Rows[j]->Cells[i]->Value = s; //Р·Р°РЅРѕСЃРёРј РІ С‚Р°Р±Р»РёС‡РєСѓ
 
-								strl = strl->Remove(0, x - pos + 1);//сдвигаемся
+								strl = strl->Remove(0, x - pos + 1);//СЃРґРІРёРіР°РµРјСЃСЏ
 							}
 							j++;
 						}
@@ -301,8 +301,8 @@ namespace Project26 {
 
 					catch (...)
 					{
-						MessageBox::Show("В таблице недостаточно строк или добавьте пробелы в конец строк!");
-						//все очищаем
+						MessageBox::Show("Р’ С‚Р°Р±Р»РёС†Рµ РЅРµРґРѕСЃС‚Р°С‚РѕС‡РЅРѕ СЃС‚СЂРѕРє РёР»Рё РґРѕР±Р°РІСЊС‚Рµ РїСЂРѕР±РµР»С‹ РІ РєРѕРЅРµС† СЃС‚СЂРѕРє!");
+						//РІСЃРµ РѕС‡РёС‰Р°РµРј
 						clearAllFirst(); 
 						clearAllSecond();
 					}
@@ -312,13 +312,13 @@ namespace Project26 {
 			}
 		}
 	}
-		//сохранить верхнюю таблицу
+		//СЃРѕС…СЂР°РЅРёС‚СЊ РІРµСЂС…РЅСЋСЋ С‚Р°Р±Р»РёС†Сѓ
 	private: System::Void btnSave_Click(System::Object^ sender, System::EventArgs^ e) 
 	{
-		//если таблицы нет
+		//РµСЃР»Рё С‚Р°Р±Р»РёС†С‹ РЅРµС‚
 		if (grdFirst->RowCount == 0 || grdSecond->RowCount == 0)
 		{
-			MessageBox::Show("Создайте таблицу!");
+			MessageBox::Show("РЎРѕР·РґР°Р№С‚Рµ С‚Р°Р±Р»РёС†Сѓ!");
 		}
 		else
 		{
@@ -330,10 +330,10 @@ namespace Project26 {
 					System::IO::StreamWriter^ sw =
 						gcnew System::IO::StreamWriter(myStream,
 							System::Text::Encoding::GetEncoding(1251));
-					//проходим по таблицк
+					//РїСЂРѕС…РѕРґРёРј РїРѕ С‚Р°Р±Р»РёС†Рє
 					for (int j = 0; j < grdFirst->RowCount; j++)
 					{
-						//чтоб не сохранять пустые строки
+						//С‡С‚РѕР± РЅРµ СЃРѕС…СЂР°РЅСЏС‚СЊ РїСѓСЃС‚С‹Рµ СЃС‚СЂРѕРєРё
 						if (grdFirst->Rows[j]->Cells[0]->Value != "")
 						{
 							String^ s = "";
@@ -351,7 +351,7 @@ namespace Project26 {
 			}
 		}
 	}
-		   //очистить верхнюю таблицу
+		   //РѕС‡РёСЃС‚РёС‚СЊ РІРµСЂС…РЅСЋСЋ С‚Р°Р±Р»РёС†Сѓ
 		   void clearAllFirst()
 		   {
 			   for (int j = 0; j < grdFirst->RowCount; j++)
@@ -363,7 +363,7 @@ namespace Project26 {
 			   }
 		   }
 
-		   //очистить нижнюю таблицу
+		   //РѕС‡РёСЃС‚РёС‚СЊ РЅРёР¶РЅСЋСЋ С‚Р°Р±Р»РёС†Сѓ
 		   void clearAllSecond()
 		   {
 			   for (int j = 0; j < grdSecond->RowCount; j++)
@@ -375,28 +375,28 @@ namespace Project26 {
 			   }
 		   }
 
-		   //добавить строку
+		   //РґРѕР±Р°РІРёС‚СЊ СЃС‚СЂРѕРєСѓ
 	private: System::Void btnAdd_Click(System::Object^ sender, System::EventArgs^ e) 
 	{
-		//на случай, если столбцов нет совсем
+		//РЅР° СЃР»СѓС‡Р°Р№, РµСЃР»Рё СЃС‚РѕР»Р±С†РѕРІ РЅРµС‚ СЃРѕРІСЃРµРј
 		try
 		{
 			this->grdFirst->Rows->Add(1);
-			this->grdSecond->Rows->Add(1); //максимум строк во 2 таблице - максимум их в первой
+			this->grdSecond->Rows->Add(1); //РјР°РєСЃРёРјСѓРј СЃС‚СЂРѕРє РІРѕ 2 С‚Р°Р±Р»РёС†Рµ - РјР°РєСЃРёРјСѓРј РёС… РІ РїРµСЂРІРѕР№
 		}
 		catch (...)
 		{
-			MessageBox::Show("Создайте таблицу!");
+			MessageBox::Show("РЎРѕР·РґР°Р№С‚Рµ С‚Р°Р±Р»РёС†Сѓ!");
 		}
 	}
 		  
-		   //удалить все колонки
+		   //СѓРґР°Р»РёС‚СЊ РІСЃРµ РєРѕР»РѕРЅРєРё
 		   void deleteColumn()
 		   {
-			   //если нет столбцов
+			   //РµСЃР»Рё РЅРµС‚ СЃС‚РѕР»Р±С†РѕРІ
 			   if (!grdFirst->ColumnCount)
 			   {
-				   MessageBox::Show("В таблице нет столбцов!");
+				   MessageBox::Show("Р’ С‚Р°Р±Р»РёС†Рµ РЅРµС‚ СЃС‚РѕР»Р±С†РѕРІ!");
 				   return;
 			   }
 
@@ -411,7 +411,7 @@ namespace Project26 {
 					   }
 					   catch (...)
 					   {
-						   MessageBox::Show("Не могу удалить столбец с индексом ");
+						   MessageBox::Show("РќРµ РјРѕРіСѓ СѓРґР°Р»РёС‚СЊ СЃС‚РѕР»Р±РµС† СЃ РёРЅРґРµРєСЃРѕРј ");
 					   }
 				   }
 			   }
@@ -435,14 +435,14 @@ namespace Project26 {
 					   }
 					   catch (...)
 					   {
-						   MessageBox::Show("Не могу удалить столбец с индексом ");
+						   MessageBox::Show("РќРµ РјРѕРіСѓ СѓРґР°Р»РёС‚СЊ СЃС‚РѕР»Р±РµС† СЃ РёРЅРґРµРєСЃРѕРј ");
 					   }
 				   }
-				   else MessageBox::Show("Выберите столбцы для удаления");
+				   else MessageBox::Show("Р’С‹Р±РµСЂРёС‚Рµ СЃС‚РѕР»Р±С†С‹ РґР»СЏ СѓРґР°Р»РµРЅРёСЏ");
 			   }
 		   }
 
-		//удалить строку
+		//СѓРґР°Р»РёС‚СЊ СЃС‚СЂРѕРєСѓ
 	private: System::Void btnRemove_Click(System::Object^ sender, System::EventArgs^ e) 
 	{
 		try
@@ -455,11 +455,11 @@ namespace Project26 {
 		}
 		catch (...)
 		{
-			MessageBox::Show("Эту строку нельзя удалить!");
+			MessageBox::Show("Р­С‚Сѓ СЃС‚СЂРѕРєСѓ РЅРµР»СЊР·СЏ СѓРґР°Р»РёС‚СЊ!");
 		}
 	}
 
-		//создать таблицы
+		//СЃРѕР·РґР°С‚СЊ С‚Р°Р±Р»РёС†С‹
 	private: System::Void btnNewGrid_Click(System::Object^ sender, System::EventArgs^ e)
 	{
 		for (int index = 0; index < 6; index++)
@@ -473,34 +473,34 @@ namespace Project26 {
 			DataGridViewTextBoxColumn^ i1 = gcnew DataGridViewTextBoxColumn();
 			grdSecond->Columns->Add(i1);
 		}
-		//названия колонок
-		grdFirst->Columns[0]->HeaderText = "Фамилия";
-		grdFirst->Columns[1]->HeaderText = "Имя";
-		grdFirst->Columns[2]->HeaderText = "Отчество";
-		grdFirst->Columns[3]->HeaderText = "Стаж работы";
-		grdFirst->Columns[4]->HeaderText = "Должность";
-		grdFirst->Columns[5]->HeaderText = "Оклад";
+		//РЅР°Р·РІР°РЅРёСЏ РєРѕР»РѕРЅРѕРє
+		grdFirst->Columns[0]->HeaderText = "Р¤Р°РјРёР»РёСЏ";
+		grdFirst->Columns[1]->HeaderText = "РРјСЏ";
+		grdFirst->Columns[2]->HeaderText = "РћС‚С‡РµСЃС‚РІРѕ";
+		grdFirst->Columns[3]->HeaderText = "РЎС‚Р°Р¶ СЂР°Р±РѕС‚С‹";
+		grdFirst->Columns[4]->HeaderText = "Р”РѕР»Р¶РЅРѕСЃС‚СЊ";
+		grdFirst->Columns[5]->HeaderText = "РћРєР»Р°Рґ";
 
-		grdSecond->Columns[0]->HeaderText = "Фамилия";
-		grdSecond->Columns[1]->HeaderText = "Имя";
-		grdSecond->Columns[2]->HeaderText = "Отчество";
-		grdSecond->Columns[3]->HeaderText = "Стаж работы";
-		grdSecond->Columns[4]->HeaderText = "Должность";
-		grdSecond->Columns[5]->HeaderText = "Оклад";
+		grdSecond->Columns[0]->HeaderText = "Р¤Р°РјРёР»РёСЏ";
+		grdSecond->Columns[1]->HeaderText = "РРјСЏ";
+		grdSecond->Columns[2]->HeaderText = "РћС‚С‡РµСЃС‚РІРѕ";
+		grdSecond->Columns[3]->HeaderText = "РЎС‚Р°Р¶ СЂР°Р±РѕС‚С‹";
+		grdSecond->Columns[4]->HeaderText = "Р”РѕР»Р¶РЅРѕСЃС‚СЊ";
+		grdSecond->Columns[5]->HeaderText = "РћРєР»Р°Рґ";
 		btnNewGrid->Enabled = false;
 	}
 
-		   //найти строки
+		   //РЅР°Р№С‚Рё СЃС‚СЂРѕРєРё
 	private: System::Void btnFind_Click(System::Object^ sender, System::EventArgs^ e) 
 	{
-		//есть ли таблицы
+		//РµСЃС‚СЊ Р»Рё С‚Р°Р±Р»РёС†С‹
 		if (grdFirst->RowCount == 0)
 		{
-			MessageBox::Show("Создайте таблицу!");
+			MessageBox::Show("РЎРѕР·РґР°Р№С‚Рµ С‚Р°Р±Р»РёС†Сѓ!");
 		}
 		else
 		{
-			//очищаем вторую
+			//РѕС‡РёС‰Р°РµРј РІС‚РѕСЂСѓСЋ
 			clearAllSecond();
 
 			String^ str = txtFind->Text;
@@ -508,28 +508,28 @@ namespace Project26 {
 			int count = 0;
 			try
 			{
-				//ищем
+				//РёС‰РµРј
 				for (int j = 0; j < grdFirst->RowCount; j++)
 				{
 					if (str == grdFirst->Rows[j]->Cells[4]->Value->ToString())
 					{
-						//если нашли, то вызываем от нее функцию
-						//номер строки и количество найденных, чтобы знать номер строки во второй, куда вписывать
+						//РµСЃР»Рё РЅР°С€Р»Рё, С‚Рѕ РІС‹Р·С‹РІР°РµРј РѕС‚ РЅРµРµ С„СѓРЅРєС†РёСЋ
+						//РЅРѕРјРµСЂ СЃС‚СЂРѕРєРё Рё РєРѕР»РёС‡РµСЃС‚РІРѕ РЅР°Р№РґРµРЅРЅС‹С…, С‡С‚РѕР±С‹ Р·РЅР°С‚СЊ РЅРѕРјРµСЂ СЃС‚СЂРѕРєРё РІРѕ РІС‚РѕСЂРѕР№, РєСѓРґР° РІРїРёСЃС‹РІР°С‚СЊ
 						newFind(j, count); 
 						count++;
 					}
 				}
-				if (count == 0) MessageBox::Show("Ничего не найдено");
+				if (count == 0) MessageBox::Show("РќРёС‡РµРіРѕ РЅРµ РЅР°Р№РґРµРЅРѕ");
 			}
 			catch (...)
 			{
-				MessageBox::Show("Уберите лишние пустые строки");
+				MessageBox::Show("РЈР±РµСЂРёС‚Рµ Р»РёС€РЅРёРµ РїСѓСЃС‚С‹Рµ СЃС‚СЂРѕРєРё");
 			}
 		}
 		txtFind->Text = "";
 	}
 
-		   //функция поиска и передачи во вторую таблицу
+		   //С„СѓРЅРєС†РёСЏ РїРѕРёСЃРєР° Рё РїРµСЂРµРґР°С‡Рё РІРѕ РІС‚РѕСЂСѓСЋ С‚Р°Р±Р»РёС†Сѓ
 	void newFind(int index, int n)
 	{
 		for (int i = 0; i < grdSecond->ColumnCount; i++)
@@ -537,13 +537,13 @@ namespace Project26 {
 			grdSecond->Rows[n]->Cells[i]->Value = grdFirst->Rows[index]->Cells[i]->Value;
 		}
 	}
-		//сохранить вторую таблицу
+		//СЃРѕС…СЂР°РЅРёС‚СЊ РІС‚РѕСЂСѓСЋ С‚Р°Р±Р»РёС†Сѓ
 	private: System::Void btnSaveSecond_Click(System::Object^ sender, System::EventArgs^ e)
 	{
-		//существуют ли они вообще
+		//СЃСѓС‰РµСЃС‚РІСѓСЋС‚ Р»Рё РѕРЅРё РІРѕРѕР±С‰Рµ
 		if (grdSecond->RowCount == 0 || grdSecond->RowCount == 0)
 		{
-			MessageBox::Show("Создайте нижнюю таблицу правильно");
+			MessageBox::Show("РЎРѕР·РґР°Р№С‚Рµ РЅРёР¶РЅСЋСЋ С‚Р°Р±Р»РёС†Сѓ РїСЂР°РІРёР»СЊРЅРѕ");
 		}
 		else
 		{
@@ -555,7 +555,7 @@ namespace Project26 {
 					System::IO::StreamWriter^ sw =
 						gcnew System::IO::StreamWriter(myStream,
 							System::Text::Encoding::GetEncoding(1251));
-					//проходим все ячейки
+					//РїСЂРѕС…РѕРґРёРј РІСЃРµ СЏС‡РµР№РєРё
 					for (int j = 0; j < grdSecond->RowCount; j++)
 					{
 						if (grdSecond->Rows[j]->Cells[0]->Value != "")
